@@ -9,11 +9,37 @@
 <body>
    <div class="container">
     <div class="row">
-        <main id="Productos" class="col-sm-8 row">
-
+        <main id="productos" class="col-sm-8 row">
+            <div class="card col-sm-4">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 1</h5>
+                    <img src="images/gatito1.jfif" class="img-fluid">
+                    <p class="card-text">$375.00</p>
+                    <button class="btn btn-primary" onclick="agregarCarro1()">+</button>
+                </div>
+            </div>
+            <div class="card col-sm-4">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 2</h5>
+                    <img src="images/gatito2.jfif" class="img-fluid">
+                    <p class="card-text">$150.00</p>
+                    <button class="btn btn-primary" onclick="agregarCarro1()">+</button>
+                </div>
+            </div>
+            <div class="card col-sm-4">
+                <div class="card-body">
+                    <h5 class="card-title">Producto 3</h5>
+                    <img src="images/gatito3.jfif" class="img-fluid">
+                    <p class="card-text">$251.00</p>
+                    <button class="btn btn-primary" onclick="agregarCarro1()">+</button>
+                </div>
+            </div>
         </main>
         <aside class="col-sm-4">
-
+            <h2>Carrito</h2>
+            <ul id="carrito" class="list-group"></ul>
+            <hr>
+            <p>Total: $ <span id="total"></span></p>
         </aside>
     </div>
    </div> 
